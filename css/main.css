@@ -13,21 +13,59 @@
 
 }
 
+.square{
+  box-shadow: 10px 10px 15px lightblue;
+}
+
 #Name{
-  position: fixed;
+  position: absolute;
   font-family: Rowdies-Light, sans-serif;
-  font-size: 40pt;
-  left:5%;
+  font-size: 25pt;
+  left:40%;
   top:0%;
   color:#4169E1;
   text-shadow: 0 0 8px #4169E1;
   animation: shine 2s forwards, flicker 3s infinite;
-  z-index: 1;
+  /* z-index: 1; */
 
   /* 0 0 0.6rem #00a6ff, 0 0 1.5rem #00a6ff,
       -0.2rem 0.1rem 1rem #00a6ff, 0.2rem 0.1rem 1rem #00a6ff,
       0 -0.5rem 2rem #4169E1, 0 0.5rem 3rem #4169E1; */
 }
+
+#subtitle1{
+  position: absolute;
+  font-family: Rowdies-Light, sans-serif;
+  font-size: 15pt;
+  top:12%;
+  left:40%;
+  color:gray;
+}
+#subtitle2{
+  position: absolute;
+  font-family: Rowdies-Light, sans-serif;
+  font-size: 15pt;
+  top:12%;
+  left:54%;
+  color:gray;
+}
+
+
+.Project1{
+  position: absolute;
+  top:25%;
+      height: 350px;
+      width:  400px;
+      background-color: rgb(163, 163, 163);
+  /* box-shadow: 10px 10px 15px lightblue; */
+}
+
+
+
+
+
+
+
 #flickk{
   animation: blink 2s infinite;
 }
